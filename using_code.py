@@ -20,6 +20,7 @@ while True:
 
     # Exibir as respostas do bot
     for response in responses:
+        print(response)
         if 'text' in response:
             print("Bot:", response["text"])
         else:
